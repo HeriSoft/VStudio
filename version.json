@@ -1,0 +1,13 @@
+{
+  "version": "2.7.0",
+  "date": "2026-11-22",
+  "title": "Tự cập nhật",
+  "notes": [
+    "Mới: Voice Studio tự kiểm tra bản mới mỗi khi mở. Có bản mới → hiện thông báo ở đầu trang, bấm “⬆ Cập nhật” là app tự tải, cài và mở lại – không cần tải tay.",
+    "Mới: Bản cập nhật được ký số: app chỉ cài bản đúng chữ ký của nhà phát hành và đúng mã kiểm tra, file tải về bị lỗi hoặc bị sửa sẽ bị từ chối."
+  ],
+  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.7.0/VoiceStudio-2.7.0-update.zip",
+  "sha256": "269b418ad8f933ba84ed91a7e4f95a3a0ab9c2c8b82140f7a445b345a7674064",
+  "size": 9401331,
+  "sig": "x5yyyl7WA5wzs3b_vqB8z58TQ0Lnbn6f0h9QgStsQPH6LAm4fIWuY_u3Y149C6wG63QuyNqsW-7thik5QwmjAw"
+}
