@@ -1,13 +1,27 @@
 {
-  "version": "2.7.0",
+  "version": "2.8.0",
   "date": "2026-11-22",
-  "title": "Tự cập nhật",
+  "title": "AI Đạo diễn · kết nối app Claude",
   "notes": [
-    "Mới: Voice Studio tự kiểm tra bản mới mỗi khi mở. Có bản mới → hiện thông báo ở đầu trang, bấm “⬆ Cập nhật” là app tự tải, cài và mở lại – không cần tải tay.",
-    "Mới: Bản cập nhật được ký số: app chỉ cài bản đúng chữ ký của nhà phát hành và đúng mã kiểm tra, file tải về bị lỗi hoặc bị sửa sẽ bị từ chối."
+    "Mới: 🤖 AI Đạo diễn (Video Creator, Pro): nhập ý tưởng + chọn thư mục ảnh / video → AI viết lời đọc, chọn cảnh hợp từng câu, đặt keyframe hướng vào chủ thể, chuyển cảnh, màu, chữ, phụ đề, tự chọn giọng rồi điền hết vào timeline – tuỳ chọn dựng luôn bản xem trước.",
+    "Mới: Với Gemini / OpenAI / Claude / DeepSeek (deepseek-flash), AI XEM từng ảnh và khung hình video để chọn cảnh (mô tả được lưu đệm, lần sau không tốn API); Voice Studio AI chọn theo tên file.",
+    "Mới: Video dài (phim, tập phim): tự tách CẢNH QUAY, nghe lời thoại bằng Whisper turbo ngay trên máy, AI đọc lời thoại để chọn cảnh quay then chốt rồi chỉ xem hình những cảnh đó (tập phim 22 phút ≈ 4 ảnh gửi AI) → viết lời bám đúng cốt truyện và đúng hình, giọng kể chuyện tự nhiên, trích câu thoại hay.",
+    "Mới: AI tự soát khung đầu / giữa / cuối từng cảnh so với lời đọc: lệch hình thì đổi sang cảnh quay khớp hơn, giữ nguyên tình tiết chính và thứ tự thời gian.",
+    "Mới: Đoạn có điểm kết thúc: “2@75-82” = chỉ dùng giây 75–82 của video; lời đọc dài hơn thì giữ khung cuối, không trôi sang cảnh quay khác.",
+    "Mới: Claude (MCP): công cụ vs_video_shots – danh sách cảnh quay + lưới khung hình; dự án nhận start/end.",
+    "Sửa: Video dựng ra đôi khi chỉ có hình vài cảnh đầu (tiếng vẫn đủ) do làm tròn khung hình khi chuyển cảnh.",
+    "Sửa: Gặp giới hạn gọi API (429) thì chờ đúng thời gian hãng yêu cầu rồi thử lại; hết hạn mức giữa chừng vẫn dựng xong video.",
+    "Mới: AI Đạo diễn tự chuyển sang hãng AI khác đã có key (ưu tiên DeepSeek) khi hãng đang chọn hết lượt hoặc quá tải; hết hạn mức theo ngày thì báo ngay, không chờ.",
+    "Sửa: AI Đạo diễn lỗi thì không còn tự dựng bản xem trước từ bảng cảnh trống.",
+    "Mới: Ô “Chữ tiêu đề trên màn hình” ở AI Đạo diễn: tắt khi kể phim / kể chuyện (chỉ giữ phụ đề lời đọc), bật cho review sản phẩm, tin tức.",
+    "Mới: 4 phong cách: Năng động (TikTok), Điện ảnh, Kể chuyện nhẹ nhàng, Tin tức / giáo dục.",
+    "Mới: 🔌 Kết nối app Claude (Claude Desktop / Claude Code, MCP): Claude tự xem ảnh trong thư mục của bạn, soạn cảnh + keyframe + chữ và nhờ Voice Studio dựng video; dự án mở lại được trong Video Creator. Bấm “Kết nối app Claude” là xong cấu hình (hỗ trợ cả Claude Desktop bản Microsoft Store).",
+    "Mới: Video dài: chọn đoạn bắt đầu cho từng cảnh – gõ “2@1:20” ở cột Media (video số 2, từ phút 1:20). AI Đạo diễn và Claude tự chọn đoạn hay trong video dài.",
+    "Mới: Claude xem nhanh video dài theo dải khung hình có mốc giờ (vs_peek_video) và tự soát video vừa dựng qua dải khung hình kết quả – thấy lỗi là sửa dự án rồi dựng lại.",
+    "Sửa: Cảnh video không có lời đọc: thời lượng tự tính từ điểm bắt đầu đã chọn, không còn tính từ đầu clip."
   ],
-  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.7.0/VoiceStudio-2.7.0-update.zip",
-  "sha256": "bdd18bbecb6b01da0085c37890f9abadcfbe4668ebd207aa09b9ccb308d36519",
-  "size": 9401331,
-  "sig": "lRZPXB0f4iwN2-Y1b27cyz3Ow2WbgeBe1gY1PPVBu5LtR5y6YQAqlRh_qux07QqOgu4PTL8YQiupmWG4T4QtCw"
+  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.8.0/VoiceStudio-2.8.0-update.zip",
+  "sha256": "af86918d393664c1e7a0e63ffcf069253bedc22735582614853e77b8a1822f0c",
+  "size": 9579007,
+  "sig": "nJDUixWbQcGiYl7_0IOug6T6DhrYllR6WjWFc1m_2K1dfvcQLz9XoEPjKNaCh18VH923rEQyeZ9lWfcCYJMvAA"
 }
