@@ -1,12 +1,18 @@
 {
-  "version": "2.8.4",
-  "date": "2026-11-22",
-  "title": "Sửa lỗi “Video not playable”",
+  "version": "2.9.0",
+  "date": "2026-11-23",
+  "title": "🎞 Animation Video – làm video YouTube hoạt hình từ một chủ đề",
   "notes": [
-    "Sửa: Video H.265/HEVC (thường gặp ở video quay điện thoại) và file .mkv, .avi, .wmv… không còn báo “Video not playable” trên máy chưa cài HEVC Video Extensions: app tự tạo bản xem trước H.264 để xem, còn nhận dạng giọng nói, thuyết minh, nâng 1080p, xoá logo vẫn dùng file gốc."
+    "Mới: 📺 Video dài YouTube: nhập chủ đề → AI viết kịch bản chia cảnh (sửa được) → mỗi cảnh một hoạt hình khớp từng câu thuyết minh → ghép thành video 2–15 phút có phụ đề, nhạc nền, intro/outro kênh. Kèm youtube.txt: tiêu đề, mô tả, chương (0:00 …) và thẻ. Sửa / làm lại từng cảnh không phải dựng lại cả video.",
+    "Mới: 🖼 Thumbnail tự động: AI thiết kế 2 mẫu ảnh bìa 1280×720 chữ to, tương phản cao theo màu kênh.",
+    "Mới: ✂️ Cắt Shorts: biến cảnh hay thành Shorts dọc 9:16 – AI dựng lại khung dọc, hoặc đặt video ngang vào khung dọc (nhanh) – giữ thuyết minh, phụ đề và tiêu đề móc câu.",
+    "Mới: 🎨 Bộ nhận diện kênh: màu, font, logo, phong cách và intro / outro (màn hình kết có nút Đăng ký) – mọi video của kênh nhìn nhất quán, chuyên nghiệp.",
+    "Mới: Tab 🎞 Animation Video: mô tả ý tưởng → AI viết hoạt hình bằng code (HTML · Canvas · SVG · Three.js) → xem trước chạy trực tiếp, bấm “Sửa lại” để AI chỉnh theo lời bạn.",
+    "Mới: Xuất MP4 1080p 30/60 fps mượt (quay từng khung bằng đồng hồ ảo, nhiều luồng song song), tự thêm thuyết minh bằng giọng của bạn (kể cả giọng clone) và phụ đề khớp từng cảnh.",
+    "Mới: Thư viện 700+ prompt mẫu từ các video hoạt hình viral; khung ngang, dọc (TikTok/Shorts) và vuông."
   ],
-  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.8.4/VoiceStudio-2.8.4-update.zip",
-  "sha256": "9f8460c3d10813a2d0f22f9959991585177be010d248c2c20083747bc266fec0",
-  "size": 9643328,
-  "sig": "cQ3uxiIOqFHJOxrfSTPlOzDuEpKDtgRFK4J7Dboa-NR2aO2Tqb-GDG2bOTSBfQgoJ4402Hq56v9mnYMdcyqDAg"
+  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.9.0/VoiceStudio-2.9.0-update.zip",
+  "sha256": "23f5b76790e36173260a6ec8dea3d02d69a31fc8be493067bda5be0dac466eae",
+  "size": 9888143,
+  "sig": "d3ItnWEMzccwyI3V-yMXoW5LRDsyqNblxMNiEFlmaZ4WOyrfvSxJTo_vOJSHGtyqFmedmN6jH7O9kmJ0GeBxBw"
 }
