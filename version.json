@@ -1,12 +1,12 @@
 {
-  "version": "2.8.3",
+  "version": "2.8.4",
   "date": "2026-11-22",
-  "title": "Video lớn không còn treo app",
+  "title": "Sửa lỗi “Video not playable”",
   "notes": [
-    "Sửa: Bỏ video lớn (~1 GB, VD video vừa nâng 1080p) vào Phụ đề & Thuyết minh, Nâng 1080p, Xoá chữ & logo không còn làm cửa sổ app đen màn hình / treo: app dùng thẳng file trên máy, không tải lên – video hiện sau vài giây."
+    "Sửa: Video H.265/HEVC (thường gặp ở video quay điện thoại) và file .mkv, .avi, .wmv… không còn báo “Video not playable” trên máy chưa cài HEVC Video Extensions: app tự tạo bản xem trước H.264 để xem, còn nhận dạng giọng nói, thuyết minh, nâng 1080p, xoá logo vẫn dùng file gốc."
   ],
-  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.8.3/VoiceStudio-2.8.3-update.zip",
-  "sha256": "2903c45e1478718e0b44a3c7360cc5f9b636c23495a94bc91c51197bdd204801",
-  "size": 9631168,
-  "sig": "nVPXgMbK79CMsgSLHXlEhNvwvieSyLh_P7d1UG_vCz1n7rose1dIMEAlopOH2AQpM9WoLCMzIK2Mr7nIL0knAg"
+  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.8.4/VoiceStudio-2.8.4-update.zip",
+  "sha256": "9f8460c3d10813a2d0f22f9959991585177be010d248c2c20083747bc266fec0",
+  "size": 9643328,
+  "sig": "cQ3uxiIOqFHJOxrfSTPlOzDuEpKDtgRFK4J7Dboa-NR2aO2Tqb-GDG2bOTSBfQgoJ4402Hq56v9mnYMdcyqDAg"
 }
