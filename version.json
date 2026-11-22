@@ -1,18 +1,18 @@
 {
-  "version": "2.9.0",
+  "version": "2.9.1",
   "date": "2026-11-23",
-  "title": "🎞 Animation Video – làm video YouTube hoạt hình từ một chủ đề",
+  "title": "🩺 Kiểm chứng nội dung cho video sức khỏe",
   "notes": [
-    "Mới: 📺 Video dài YouTube: nhập chủ đề → AI viết kịch bản chia cảnh (sửa được) → mỗi cảnh một hoạt hình khớp từng câu thuyết minh → ghép thành video 2–15 phút có phụ đề, nhạc nền, intro/outro kênh. Kèm youtube.txt: tiêu đề, mô tả, chương (0:00 …) và thẻ. Sửa / làm lại từng cảnh không phải dựng lại cả video.",
-    "Mới: 🖼 Thumbnail tự động: AI thiết kế 2 mẫu ảnh bìa 1280×720 chữ to, tương phản cao theo màu kênh.",
-    "Mới: ✂️ Cắt Shorts: biến cảnh hay thành Shorts dọc 9:16 – AI dựng lại khung dọc, hoặc đặt video ngang vào khung dọc (nhanh) – giữ thuyết minh, phụ đề và tiêu đề móc câu.",
-    "Mới: 🎨 Bộ nhận diện kênh: màu, font, logo, phong cách và intro / outro (màn hình kết có nút Đăng ký) – mọi video của kênh nhìn nhất quán, chuyên nghiệp.",
-    "Mới: Tab 🎞 Animation Video: mô tả ý tưởng → AI viết hoạt hình bằng code (HTML · Canvas · SVG · Three.js) → xem trước chạy trực tiếp, bấm “Sửa lại” để AI chỉnh theo lời bạn.",
-    "Mới: Xuất MP4 1080p 30/60 fps mượt (quay từng khung bằng đồng hồ ảo, nhiều luồng song song), tự thêm thuyết minh bằng giọng của bạn (kể cả giọng clone) và phụ đề khớp từng cảnh.",
-    "Mới: Thư viện 700+ prompt mẫu từ các video hoạt hình viral; khung ngang, dọc (TikTok/Shorts) và vuông."
+    "Mới: Video dài YouTube: tick “🩺 Chủ đề sức khỏe / y tế” – AI viết kịch bản theo khuyến cáo y tế chính thống, không chẩn đoán / kê đơn, không hứa hẹn “thần kỳ”, nhắc nhóm cần hỏi bác sĩ và có câu miễn trừ.",
+    "Mới: 🔎 Kiểm chứng kịch bản trước khi dựng: AI soát từng khẳng định & con số (sai, phóng đại, mâu thuẫn giữa các cảnh, lời khuyên nguy hiểm, vi phạm chính sách YouTube), viết lại cảnh có vấn đề – bấm “Áp dụng bản sửa” để dùng.",
+    "Mới: Nguồn tham khảo: app tự mở thử từng link AI đưa ra – chỉ link mở được mới vào mô tả youtube.txt, link bịa bị loại, trang chặn kiểm tra tự động được đánh dấu để bạn mở tay.",
+    "Sửa: Báo lỗi dễ hiểu khi hãng AI quá tải / hết hạn mức (gợi ý đổi hãng); AI trả về rỗng thì tự hỏi lại; một cảnh lỗi không làm mất các cảnh đã dựng xong.",
+    "Sửa: Bộ nhận diện kênh có ô “Ngôn ngữ kênh”: intro / outro viết chữ đúng ngôn ngữ kênh (trước đây luôn ra tiếng Việt) và giữ nguyên văn lời kêu gọi đăng ký. Kênh tiếng Anh / Nhật / Hàn: bấm tạo lại intro, outro.",
+    "Mới: 🎵 Âm thanh kênh: nhạc intro, nhạc outro, tiếng chuyển cảnh và nhạc nền lo-fi lặp – tổng hợp bằng code, không bản quyền – tự trộn vào mọi video dài (tắt / thay bằng file của bạn ở tab Bộ nhận diện kênh).",
+    "Sửa: Kênh có logo không còn lỗi khi tạo intro / outro; tên chương cuối theo ngôn ngữ video."
   ],
-  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.9.0/VoiceStudio-2.9.0-update.zip",
-  "sha256": "23f5b76790e36173260a6ec8dea3d02d69a31fc8be493067bda5be0dac466eae",
-  "size": 9888143,
-  "sig": "d3ItnWEMzccwyI3V-yMXoW5LRDsyqNblxMNiEFlmaZ4WOyrfvSxJTo_vOJSHGtyqFmedmN6jH7O9kmJ0GeBxBw"
+  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.9.1/VoiceStudio-2.9.1-update.zip",
+  "sha256": "a1222a925972e2f524a3840933e51922ccc579e3183ac9fb247c82d76a8db0d3",
+  "size": 9941614,
+  "sig": "ZAEZh0r2c9huuoABukW2aWhjptCrYiFFM3GspYxgMj2TB7VC4B4ZU1TseWaF7pFjcAyopBN3ADsoEarJvDniCQ"
 }
