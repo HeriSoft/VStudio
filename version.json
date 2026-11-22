@@ -1,14 +1,14 @@
 {
-  "version": "2.8.1",
+  "version": "2.8.2",
   "date": "2026-11-22",
-  "title": "Tóm tắt phim dài",
+  "title": "Tóm tắt từng tập · video không thoại · sửa lỗi GPU đời cũ",
   "notes": [
-    "Mới: Độ dài mong muốn của AI Đạo diễn tính bằng PHÚT (0,5–10 phút) – làm được video tóm tắt phim dài vài phút từ phim cả tiếng; AI viết đủ số cảnh, chọn nhiều cảnh quay then chốt hơn khi video dài.",
-    "Sửa: Video nhiều cảnh (vài phút) được ghép theo từng nhóm – nhẹ máy, không tốn RAM.",
-    "Sửa: DeepSeek đôi khi trả kịch bản trống hoặc lỗi định dạng khi viết video dài – đã sửa, tự hỏi lại nếu lỗi."
+    "Mới: 🎞 Tóm tắt từng tập: thư mục nhiều tập phim → mỗi tập một video tóm tắt riêng (outputs/creator/tom-tat), làm lần lượt; bị ngắt thì bấm lại – tập đã xong được bỏ qua.",
+    "Mới: Video ít / không thoại (gameplay, thể thao, vlog): AI tìm pha cao trào theo âm thanh, chia cảnh quay dài thành khoảnh khắc ngắn và bình luận như reviewer / streamer.",
+    "Sửa: Máy có card NVIDIA đời cũ (VD GTX 970M, 9xx) không còn bị sập khi mở app (mã 3221225477): app tự nhận ra card không hợp với PyTorch và chuyển sang chạy CPU."
   ],
-  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.8.1/VoiceStudio-2.8.1-update.zip",
-  "sha256": "b32d9bab13ff2fd85ebdfc33148dc43bc43351d1b013e4883af4118169ed64b3",
-  "size": 9587096,
-  "sig": "YiiMrDMgj1Kox21JiPZeR1yuEPIcBJauelnkiDWpECjtvWsXkl9wKtwWwHkQtsLBufKerE8swlSkJjgwwiDFBA"
+  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.8.2/VoiceStudio-2.8.2-update.zip",
+  "sha256": "bc4338b91a987b97e88aa0ff8716eef74f7cb76aa00282a4cb95f741e75fa2d8",
+  "size": 9623092,
+  "sig": "YzJ_0PpLTe9UVCfWV0QIITScD6mQYfalmFw-4_FapYkr4rKnFihzG_tq5yO9ZF7JJF1GucSWbTt4JoWW3dOPAg"
 }
