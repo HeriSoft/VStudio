@@ -1,18 +1,15 @@
 {
-  "version": "2.9.1",
-  "date": "2026-11-23",
-  "title": "🩺 Kiểm chứng nội dung cho video sức khỏe",
+  "version": "2.9.2",
+  "date": "2026-11-24",
+  "title": "✂️ Shorts đẹp hơn & kiểm chứng kỹ hơn",
   "notes": [
-    "Mới: Video dài YouTube: tick “🩺 Chủ đề sức khỏe / y tế” – AI viết kịch bản theo khuyến cáo y tế chính thống, không chẩn đoán / kê đơn, không hứa hẹn “thần kỳ”, nhắc nhóm cần hỏi bác sĩ và có câu miễn trừ.",
-    "Mới: 🔎 Kiểm chứng kịch bản trước khi dựng: AI soát từng khẳng định & con số (sai, phóng đại, mâu thuẫn giữa các cảnh, lời khuyên nguy hiểm, vi phạm chính sách YouTube), viết lại cảnh có vấn đề – bấm “Áp dụng bản sửa” để dùng.",
-    "Mới: Nguồn tham khảo: app tự mở thử từng link AI đưa ra – chỉ link mở được mới vào mô tả youtube.txt, link bịa bị loại, trang chặn kiểm tra tự động được đánh dấu để bạn mở tay.",
-    "Sửa: Báo lỗi dễ hiểu khi hãng AI quá tải / hết hạn mức (gợi ý đổi hãng); AI trả về rỗng thì tự hỏi lại; một cảnh lỗi không làm mất các cảnh đã dựng xong.",
-    "Sửa: Bộ nhận diện kênh có ô “Ngôn ngữ kênh”: intro / outro viết chữ đúng ngôn ngữ kênh (trước đây luôn ra tiếng Việt) và giữ nguyên văn lời kêu gọi đăng ký. Kênh tiếng Anh / Nhật / Hàn: bấm tạo lại intro, outro.",
-    "Mới: 🎵 Âm thanh kênh: nhạc intro, nhạc outro, tiếng chuyển cảnh và nhạc nền lo-fi lặp – tổng hợp bằng code, không bản quyền – tự trộn vào mọi video dài (tắt / thay bằng file của bạn ở tab Bộ nhận diện kênh).",
-    "Sửa: Kênh có logo không còn lỗi khi tạo intro / outro; tên chương cuối theo ngôn ngữ video."
+    "Sửa: Cắt Shorts (AI dựng lại khung dọc): chữ và hình chính nằm ở nửa trên, chừa dải riêng cho phụ đề và vùng nút của YouTube – phụ đề không còn đè lên hình.",
+    "Mới: Tiêu đề móc câu do AI viết từ lời thuyết minh (tối đa 6 chữ, VD “Your steak is still cooking”) thay cho tên cảnh kiểu “Secret 1: Heat”.",
+    "Mới: Shorts tự chuẩn âm lượng về mức YouTube (≈ −14 LUFS) – không còn nhỏ hơn các Short khác.",
+    "Sửa: Kiểm chứng kịch bản sửa luôn tên cảnh (= tên chương YouTube) và mô tả video khi chúng không khớp với bản đã sửa; dòng nguồn tham khảo trong youtube.txt theo ngôn ngữ kênh (“Sources” cho kênh tiếng Anh)."
   ],
-  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.9.1/VoiceStudio-2.9.1-update.zip",
-  "sha256": "a1222a925972e2f524a3840933e51922ccc579e3183ac9fb247c82d76a8db0d3",
-  "size": 9941614,
-  "sig": "ZAEZh0r2c9huuoABukW2aWhjptCrYiFFM3GspYxgMj2TB7VC4B4ZU1TseWaF7pFjcAyopBN3ADsoEarJvDniCQ"
+  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.9.2/VoiceStudio-2.9.2-update.zip",
+  "sha256": "68834119b7faf22280a23c12964ff41ce8de4d3daa2995befa0884610566b4b5",
+  "size": 9945736,
+  "sig": "L1NJLXLmhEreamuYI_rVZWxAp1KbHSq6XuAkfpvkb_qv80O-APVk6we-3VrPg5alAqrUuoHOf4VZz_MvptqICQ"
 }
