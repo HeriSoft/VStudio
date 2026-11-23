@@ -1,15 +1,13 @@
 {
-  "version": "2.9.2",
+  "version": "2.9.3",
   "date": "2026-11-24",
-  "title": "✂️ Shorts đẹp hơn & kiểm chứng kỹ hơn",
+  "title": "🎨 Nhiều kênh – mỗi kênh một bộ nhận diện",
   "notes": [
-    "Sửa: Cắt Shorts (AI dựng lại khung dọc): chữ và hình chính nằm ở nửa trên, chừa dải riêng cho phụ đề và vùng nút của YouTube – phụ đề không còn đè lên hình.",
-    "Mới: Tiêu đề móc câu do AI viết từ lời thuyết minh (tối đa 6 chữ, VD “Your steak is still cooking”) thay cho tên cảnh kiểu “Secret 1: Heat”.",
-    "Mới: Shorts tự chuẩn âm lượng về mức YouTube (≈ −14 LUFS) – không còn nhỏ hơn các Short khác.",
-    "Sửa: Kiểm chứng kịch bản sửa luôn tên cảnh (= tên chương YouTube) và mô tả video khi chúng không khớp với bản đã sửa; dòng nguồn tham khảo trong youtube.txt theo ngôn ngữ kênh (“Sources” cho kênh tiếng Anh)."
+    "Mới: Tab Bộ nhận diện kênh: ô “Kênh đang dùng” và nút “➕ Tạo kênh mới” – mỗi kênh có màu, font, logo, intro / outro và âm thanh riêng, đổi qua lại không mất gì.",
+    "Mới: Dự án video dài nhớ kênh của nó: dựng lại, làm lại cảnh, tạo thumbnail hay cắt Shorts sẽ tự chuyển sang đúng kênh. Bộ nhận diện hiện có trở thành kênh đầu tiên, dự án cũ thuộc kênh này."
   ],
-  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.9.2/VoiceStudio-2.9.2-update.zip",
-  "sha256": "68834119b7faf22280a23c12964ff41ce8de4d3daa2995befa0884610566b4b5",
-  "size": 9945736,
-  "sig": "L1NJLXLmhEreamuYI_rVZWxAp1KbHSq6XuAkfpvkb_qv80O-APVk6we-3VrPg5alAqrUuoHOf4VZz_MvptqICQ"
+  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.9.3/VoiceStudio-2.9.3-update.zip",
+  "sha256": "c066b0fb7622f5f376bdedacb3da4cfe198a6887ff978099688b7a92d471252b",
+  "size": 9967414,
+  "sig": "pQHccguc5cBDWLU7gS5ST7EkvrcLt2LqppoCbmvqkii76HnlgmuJja51J0UBl1O43OFxUJb8v3R9E4Ohegx1Bw"
 }
