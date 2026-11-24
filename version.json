@@ -1,13 +1,16 @@
 {
-  "version": "2.9.3",
+  "version": "2.9.4",
   "date": "2026-11-24",
-  "title": "🎨 Nhiều kênh – mỗi kênh một bộ nhận diện",
+  "title": "📞 Gọi AI liền mạch & 📅 Lịch đăng",
   "notes": [
-    "Mới: Tab Bộ nhận diện kênh: ô “Kênh đang dùng” và nút “➕ Tạo kênh mới” – mỗi kênh có màu, font, logo, intro / outro và âm thanh riêng, đổi qua lại không mất gì.",
-    "Mới: Dự án video dài nhớ kênh của nó: dựng lại, làm lại cảnh, tạo thumbnail hay cắt Shorts sẽ tự chuyển sang đúng kênh. Bộ nhận diện hiện có trở thành kênh đầu tiên, dự án cũ thuộc kênh này."
+    "Cải tiến: Gọi AI trả lời theo luồng: AI nghĩ tới đâu đọc tới đó, câu đầu thường chỉ ~1,5 giây sau khi bạn ngừng nói; tự tắt chế độ “suy nghĩ” của DeepSeek / Gemini cho nhanh.",
+    "Sửa: Gọi AI: AI nói được ở mọi lượt (trước đây có máy chỉ nghe được câu chào); dùng đúng hãng AI đang chọn trên màn hình; không còn “điếc” dần về cuối cuộc gọi; không lỗi khi bấm Kết thúc giữa chừng.",
+    "Cải tiến: Mở tab Gọi AI là nạp sẵn nhận dạng giọng nói và giọng đọc – bấm Gọi không phải chờ; có trạng thái “🗣 Bạn đang nói…” để biết app đã nghe thấy bạn.",
+    "Mới: Tab 📅 Lịch đăng (trong Animation Video): lên lịch video dài / Shorts cho từng kênh, tự tạo lịch theo tuần, đánh dấu đã dựng / đã hẹn giờ / đã đăng; dải nhắc “Lịch đăng hôm nay” ở đầu app.",
+    "Cải tiến: Video dài tự chuẩn âm lượng về −14 LUFS như YouTube – đổi giọng đọc không còn to nhỏ khác nhau."
   ],
-  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.9.3/VoiceStudio-2.9.3-update.zip",
-  "sha256": "c066b0fb7622f5f376bdedacb3da4cfe198a6887ff978099688b7a92d471252b",
-  "size": 9967414,
-  "sig": "pQHccguc5cBDWLU7gS5ST7EkvrcLt2LqppoCbmvqkii76HnlgmuJja51J0UBl1O43OFxUJb8v3R9E4Ohegx1Bw"
+  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.9.4/VoiceStudio-2.9.4-update.zip",
+  "sha256": "8c6430da5808a0763e8c040cd69c030860804c23d7a4811578d5a2baea29bb2f",
+  "size": 10053590,
+  "sig": "vW86ljzrOZtATXHVjmvORKIIPc7o2FCOJCzQlAsDtOFERDG6OnFn_rBRndrbL51LGlZr9ENwI-QXOIYLecoSAA"
 }
