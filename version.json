@@ -1,16 +1,16 @@
 {
-  "version": "2.9.4",
-  "date": "2026-11-24",
-  "title": "📞 Gọi AI liền mạch & 📅 Lịch đăng",
+  "version": "2.9.5",
+  "date": "2026-11-26",
+  "title": "🧬 Giọng clone tiếng Hàn / Nhật / Trung giống bản thu",
   "notes": [
-    "Cải tiến: Gọi AI trả lời theo luồng: AI nghĩ tới đâu đọc tới đó, câu đầu thường chỉ ~1,5 giây sau khi bạn ngừng nói; tự tắt chế độ “suy nghĩ” của DeepSeek / Gemini cho nhanh.",
-    "Sửa: Gọi AI: AI nói được ở mọi lượt (trước đây có máy chỉ nghe được câu chào); dùng đúng hãng AI đang chọn trên màn hình; không còn “điếc” dần về cuối cuộc gọi; không lỗi khi bấm Kết thúc giữa chừng.",
-    "Cải tiến: Mở tab Gọi AI là nạp sẵn nhận dạng giọng nói và giọng đọc – bấm Gọi không phải chờ; có trạng thái “🗣 Bạn đang nói…” để biết app đã nghe thấy bạn.",
-    "Mới: Tab 📅 Lịch đăng (trong Animation Video): lên lịch video dài / Shorts cho từng kênh, tự tạo lịch theo tuần, đánh dấu đã dựng / đã hẹn giờ / đã đăng; dải nhắc “Lịch đăng hôm nay” ở đầu app.",
-    "Cải tiến: Video dài tự chuẩn âm lượng về −14 LUFS như YouTube – đổi giọng đọc không còn to nhỏ khác nhau."
+    "Sửa: Giọng clone đọc tiếng Hàn / Nhật / Trung / Anh giờ giống hẳn bản thu: app tự nghe lời thoại trong mẫu giọng bằng Whisper trên máy (chỉ lần đầu mỗi giọng) để Qwen3-TTS clone đầy đủ – trước đây thiếu lời thoại nên ra một giọng khác.",
+    "Sửa: Mẫu giọng tải từ web có đuôi .mp3 nhưng thực chất là M4A / MP4 không còn bị bỏ qua khi mở app – tự chuyển sang WAV. File M4A / WebM cũng báo đúng độ dài.",
+    "Mới: Ô ✂ Cắt nhanh ở tab Giọng clone: gõ mốc bắt đầu (VD 1:23) và số giây để lấy đúng đoạn giọng rõ nhất từ file dài – không cần kéo thanh chọn.",
+    "Sửa: Vùng chọn khi bấm ✂ Trim hiện rõ màu cam trên giao diện tối (trước đây gần như vô hình). Mẫu giọng dài hơn 30 giây chỉ giữ phần đầu khi lưu – app mở nhanh hơn.",
+    "Sửa: Lịch đăng: mục “Đã hẹn giờ trên YouTube” khi tới ngày được nhắc “đánh dấu Đã đăng” thay vì báo quá hạn."
   ],
-  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.9.4/VoiceStudio-2.9.4-update.zip",
-  "sha256": "8c6430da5808a0763e8c040cd69c030860804c23d7a4811578d5a2baea29bb2f",
-  "size": 10053590,
-  "sig": "vW86ljzrOZtATXHVjmvORKIIPc7o2FCOJCzQlAsDtOFERDG6OnFn_rBRndrbL51LGlZr9ENwI-QXOIYLecoSAA"
+  "url": "https://github.com/HeriSoft/VStudio/releases/download/v2.9.5/VoiceStudio-2.9.5-update.zip",
+  "sha256": "723059a6eff034e50da37c50ed29a0266d588569420f0bb6eb287dedbfea544d",
+  "size": 10089962,
+  "sig": "U2_-3-A-Vaz3E4I0ZJjmAAPX8ujH49zIP77Mllkf-DX094lzJrFC0CWAAW_bpHQ-x-7o2QOtZs-xifqFrDbaAw"
 }
